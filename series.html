@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series | 中村佳穂</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="description" content="中村佳穂の手記と日記 - 音楽活動の記録と想い。京都を拠点に活動するミュージシャン、中村佳穂。1992年生まれ。20歳から京都にて音楽活動をスタート。ソロ、デュオ、バンド、様々な形態で、その音楽性を拡張させ続けている。見るたびに新しい発見があるその姿は、今後も国内外問わず、共鳴の輪を広げていく。2018年アルバム『AINOU』を発表。2019年に配信シングルを3曲リリース、CDも発表。2019年『FUJI ROCK FESTIVAL』出演、同年12月東京・新木場スタジオコーストにて自主企画『うたのげんざいち2019』を開催する等、数々の公演を行っている。2021年6月「アイミル」リリース。細田守監督最新作『竜とそばかすの姫』主人公すず / Belle の声、うたを担当。2022年3月、アルバム『AINOU』アナログ盤リリース。2022年7月、EP『あのうた』リリース。2023年1月、EP『あのうた』アナログ盤リリース。2023年6月、シングル「さよならのうた」リリース。2024年6月、ニューアルバム『NIA』リリース。">
+    <link rel="icon" href="images/408.ico">
+    <script src="js/multilingual.js" defer></script>
+</head>
+<body>
+    <!-- bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 12px;">
+                    <img src="images/408.ico" alt="中村佳穂" class="logo-img">
+                    <span class="logo-text">中村佳穂</span>
+                </a>
+            </div>
+            
+            <!-- three lines and a cross -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-button">
+                <span class="menu-icon">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </span>
+            </label>
+            
+            <!-- sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar__header">
+                    <div class="sidebar__profile">
+                        <img src="images/408.ico" alt="中村佳穂" class="profile-img">
+                        <div class="profile-info">
+                            <h2>中村佳穂</h2>
+                            <p>ミュージシャン / 京都</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <nav class="sidebar__nav">
+                    <div class="nav-section">
+                        <h3 data-translate="nav.contents">CONTENTS</h3>
+                        <ul class="nav-links">
+                            <li><a href="news.html" data-translate="nav.news"> NEWS</a></li>
+                            <li><a href="events.html" data-translate="nav.events"> EVENTS</a></li>
+                            <li><a href="series.html" data-translate="nav.series"> SERIES</a></li>
+                            <li><a href="discography.html" data-translate="nav.discography"> DISCOGRAPHY</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="nav-section">
+                        <h3 data-translate="nav.social">SOCIAL</h3>
+                        <div class="social-links">
+                            <a href="https://open.spotify.com/artist/0illCOhPkFBykngmCWos6u?si=kUqhgTuUQvyEul1k2xfeKQ" class="social-link" aria-label="Spotify">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/>
+                                </svg>
+                            </a>
+                            <a href="https://youtube.com/@ainou?si=MSW5BddpZhpGI59p" class="social-link" aria-label="YouTube">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/kahonakamura_info/" class="social-link" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="https://x.com/KIKI_526/" class="social-link" aria-label="X">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.53 3H21.5L14.42 10.62L22.75 21H16.44L11.36 14.62L5.72 21H1.75L9.23 13L1.25 3H7.73L12.36 9L17.53 3ZM16.37 19H18.19L7.5 5H5.62L16.37 19Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </aside>
+            
+            <!-- overlay -->
+            <div class="overlay"></div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main id="main" class="main-content" tabindex="-1">
+        <!-- page title -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title" data-translate="page.series">Series</h1>
+                <p class="page-subtitle" data-translate="page.series.subtitle">手記 -   となりにすわりますね</p>
+            </div>
+        </section>
+
+        <!-- diary -->
+        <section class="diary-section">
+            <div class="container">
+                <div class="diary-container">
+                    <!-- control and counter -->
+                    <div class="diary-controls">
+                        <button class="diary-nav-btn prev-btn" id="prevBtn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        <span class="diary-counter">
+                            <span id="currentPage">1</span> / <span id="totalPages">5</span>
+                        </span>
+                        <button class="diary-nav-btn next-btn" id="nextBtn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- diary book -->
+                    <div class="diary-book">
+                        <div class="diary-page" data-page="1">
+                            <div class="page-content">
+                                <div class="page-image">
+                                    <img src="images/s-01.jpg" alt="手記 1" loading="lazy" decoding="async">
+                                </div>
+                                <div class="page-text">
+                                    <h3>2025年</h3>
+                                    <p>やはり、2025年は面白い年だと思う。</p><br>
+                                    <p>自分が枷だと感じていることをすると飛躍する感じする。</p>
+                                    <p>熱海に思い立って行ってみた。</p><br>
+                                    <p>杖をついた人も目がピカピカだった</p>
+                                    <p>杖をついた人も目がピカピカだった</p>
+                                    <p>「はるちゃん、はるちゃん」と誰かを呼んでいる。</p><br>
+                                    <p>いいきぶん</p>
+                                    <p></p>
+                                    <div class="page-date">2025.05.14</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="diary-page" data-page="2">
+                            <div class="page-content">
+                                <div class="page-image">
+                                    <img src="images/s-02.jpeg" alt="手記 2" loading="lazy" decoding="async">
+                                </div>
+                                <div class="page-text">
+                                    <h3>ひとりくない</h3>
+                                    <p>今回のタイトルは<br>「ひとりくない(ひとりじゃないの造語)」<br>と銘打って回った<br>
+                                        "ひとり"というのは"ひとりじゃない"<br>言葉というのは相反する両方の意味を同時に<br>持っている気がしてしょうがない。</p>
+                                    <p>もう少し続けなければという何かと<br>次の何かのために、このままではいけない<br>という感じがしている。<br>人生でこんな感覚が初めてで<br>ちょっとフワフワする感覚がずっとする。<br>浮いていると言われるのは<br>言い得て妙だなと思う。</p>
+                                    <div class="page-date">2025.04.25</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="diary-page" data-page="3">
+                            <div class="page-content">
+                                <div class="page-image">
+                                    <img src="images/s-03.jpg" alt="手記 3" loading="lazy" decoding="async">
+                                </div>
+                                <div class="page-text">
+                                    <h3>FRUE日記 2024</h3>
+                                    <p>ミュージシャンは<br>
+                                        そのがらん、とした空気<br>(物足りないとは違う)を良しとして<br>
+                                        そのまま演奏する人<br>その空間に満ち満ちと演奏する人<br>
+                                        結局どんな演奏をしても<br>だんだん空気に音が満ちていく<br>
+                                        (それが遅いか、早いかなだけ)<br>裏の控えにいるとわかるけど<br>
+                                        アーティストみんなずっといる。<br>なんなら全日いる人も多い<br>
+                                        空間を時間で埋めているような<br>
+                                        どれだけいても、まだ空間が空いている<br>その距離にみんな居心地の良さを感じている気がする。</p>
+                                    <div class="page-date">2024.11.05</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="diary-page" data-page="4">
+                            <div class="page-content">
+                                <div class="page-image">
+                                    <img src="images/s-04.jpg" alt="手記 4" loading="lazy" decoding="async">
+                                </div>
+                                <div class="page-text">
+                                    <h3>FRUE日記 2023</h3>
+                                    <p>結局何を幸せに思い<br>
+                                        どんな事に厳しそうにしているのか<br>
+                                        ギリギリに変えてもいいこと<br>
+                                        最初から決めないと間に合わないこと<br>
+                                        試行錯誤しながら、それを隠さず見せている。</p>
+                                    <p>アーティストには<br>家族のように、たま〜に触れられない神様のように<br>接していた。</p>
+                                    <p>そのバランスが本当にフェアで絶妙なフェスなんだなと思った。</p>
+                                    <div class="page-date">2023.11.09</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="diary-page" data-page="5">
+                            <div class="page-content">
+                                <div class="page-image">
+                                    <img src="images/s-05.jpg" alt="手記 5" loading="lazy" decoding="async">
+                                </div>
+                                <div class="page-text">
+                                    <h3>これから始めようよ</h3>
+                                    <p>美しい朝たちが<br>群がり、こしょばい転げ回る<br>すぐ怒ったりもしている</p><p>些細な事だよきっと<br>大事なことはね本当<br>ここにいるのはねきっと<br>救われるためだよ</p>
+                                    <div class="page-date">2023.11.09</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-translate="footer.copyright">&copy; 2025 中村佳穂. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Menu ARIA + overlay close
+            const menuToggle = document.getElementById('menu-toggle');
+            const menuButton = document.querySelector('.menu-button');
+            const overlay = document.querySelector('.overlay');
+            const sidebar = document.querySelector('.sidebar');
+
+            function updateAria() {
+                const expanded = menuToggle.checked ? 'true' : 'false';
+                menuButton.setAttribute('aria-expanded', expanded);
+                sidebar.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+            }
+            if (menuButton && menuToggle) {
+                menuButton.setAttribute('aria-controls', 'sidebar');
+                menuButton.setAttribute('aria-expanded', 'false');
+                sidebar.setAttribute('id', 'sidebar');
+                sidebar.setAttribute('aria-hidden', 'true');
+                menuToggle.addEventListener('change', updateAria);
+                overlay && overlay.addEventListener('click', () => { menuToggle.checked = false; updateAria(); });
+            }
+
+            const current = location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                const href = link.getAttribute('href');
+                if (href === current) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const pages = document.querySelectorAll('.diary-page');
+            let currentPage = 1;
+
+            function updatePage() {
+                pages.forEach((page, index) => {
+                    if (index + 1 === currentPage) {
+                        page.classList.add('active');
+                        page.classList.add('flip-in');
+                        setTimeout(() => {
+                            page.classList.remove('flip-in');
+                        }, 600);
+                    } else {
+                        page.classList.remove('active');
+                        if (index + 1 < currentPage) {
+                            page.classList.add('flip-out');
+                        } else {
+                            page.classList.remove('flip-out');
+                        }
+                    }
+                });
+
+                document.getElementById('currentPage').textContent = currentPage;
+
+                prevBtn.disabled = currentPage === 1;
+                nextBtn.disabled = currentPage === pages.length;
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    updatePage();
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentPage < pages.length) {
+                    currentPage++;
+                    updatePage();
+                }
+            });
+
+            updatePage();
+        });
+    </script>
+</body>
+</html>
