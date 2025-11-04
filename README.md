@@ -1,15 +1,8 @@
 # Nakamurasann Website
 A static website consisting of HTML, CSS, JS, and images. Suitable for hosting on GitHub Pages.
 
-## Project Structure
-- `index.html` — Home page
-- `news.html` — News page
-- `events.html` — Events page
-- `discography.html` — Discography page
-- `series.html` — Series page
-- `css/` — Stylesheets
-- `js/` — JavaScript assets
-- `images/` — Images
+## Url
+https://otmojo.github.io/website-nakamurasann/
 
 ## Local Preview
 Because this is a static site, you can open `index.html` directly in your browser.
