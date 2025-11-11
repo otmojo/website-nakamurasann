@@ -1,7 +1,5 @@
 # Nakamurasann Website
-A static website consisting of HTML, CSS, JS, and images. Suitable for hosting on GitHub Pages.
 
-## Url
 https://otmojo.github.io/website-nakamurasann/
 
 ## Local Preview
